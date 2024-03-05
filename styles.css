@@ -1,2 +1,102 @@
 
 /* Your CSS Code here. */
+
+.row1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.row1 :nth-child(1) { order: 2; }
+.row1 :nth-child(2) { order: 3; }
+.row1 :nth-child(3) { order: 1; }
+
+#b1{
+	background-color: red;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+#b2{
+	background-color: blue;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+
+#b3{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+ }
+ .row2 :nth-child(1) { order: 3; }
+ .row2 :nth-child(2) { order: 4; }
+ .row2 :nth-child(3) { order: 5; }
+ .row2 :nth-child(4) { order: 6; }
+ .row2 :nth-child(5) { order: 7; }
+ .row2 :nth-child(6) { order: 1; }
+ .row2 :nth-child(7) { order: 2; }
+ 
+#b4{
+	background-color: red;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b5{
+	background-color: blue;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b6{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b7{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b8{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b9{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+#b10{
+	background-color: green;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
